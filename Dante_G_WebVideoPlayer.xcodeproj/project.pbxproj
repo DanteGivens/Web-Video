@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B51290BD24EDA3F2001DE47F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51290BC24EDA3F2001DE47F /* AppDelegate.swift */; };
+		B51290BF24EDA3F2001DE47F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51290BE24EDA3F2001DE47F /* SceneDelegate.swift */; };
+		B51290C124EDA3F2001DE47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51290C024EDA3F2001DE47F /* ViewController.swift */; };
+		B51290C424EDA3F2001DE47F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51290C224EDA3F2001DE47F /* Main.storyboard */; };
+		B51290C724EDA3F2001DE47F /* Dante_G_WebVideoPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B51290C524EDA3F2001DE47F /* Dante_G_WebVideoPlayer.xcdatamodeld */; };
+		B51290C924EDA3F5001DE47F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51290C824EDA3F5001DE47F /* Assets.xcassets */; };
+		B51290CC24EDA3F5001DE47F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B51290CA24EDA3F5001DE47F /* LaunchScreen.storyboard */; };
+		B51290D724EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51290D624EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests.swift */; };
+		B51290E224EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51290E124EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B51290D324EDA3F5001DE47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51290B124EDA3F2001DE47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51290B824EDA3F2001DE47F;
+			remoteInfo = Dante_G_WebVideoPlayer;
+		};
+		B51290DE24EDA3F5001DE47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B51290B124EDA3F2001DE47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B51290B824EDA3F2001DE47F;
+			remoteInfo = Dante_G_WebVideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B51290B924EDA3F2001DE47F /* Dante_G_WebVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dante_G_WebVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51290BC24EDA3F2001DE47F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B51290BE24EDA3F2001DE47F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B51290C024EDA3F2001DE47F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B51290C324EDA3F2001DE47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B51290C624EDA3F2001DE47F /* Dante_G_WebVideoPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dante_G_WebVideoPlayer.xcdatamodel; sourceTree = "<group>"; };
+		B51290C824EDA3F5001DE47F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B51290CB24EDA3F5001DE47F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B51290CD24EDA3F5001DE47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51290D224EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dante_G_WebVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51290D624EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dante_G_WebVideoPlayerTests.swift; sourceTree = "<group>"; };
+		B51290D824EDA3F5001DE47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51290DD24EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dante_G_WebVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51290E124EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dante_G_WebVideoPlayerUITests.swift; sourceTree = "<group>"; };
+		B51290E324EDA3F5001DE47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B51290B624EDA3F2001DE47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51290CF24EDA3F5001DE47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51290DA24EDA3F5001DE47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B51290B024EDA3F2001DE47F = {
+			isa = PBXGroup;
+			children = (
+				B51290BB24EDA3F2001DE47F /* Dante_G_WebVideoPlayer */,
+				B51290D524EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests */,
+				B51290E024EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests */,
+				B51290BA24EDA3F2001DE47F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B51290BA24EDA3F2001DE47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B51290B924EDA3F2001DE47F /* Dante_G_WebVideoPlayer.app */,
+				B51290D224EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests.xctest */,
+				B51290DD24EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51290BB24EDA3F2001DE47F /* Dante_G_WebVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				B51290BC24EDA3F2001DE47F /* AppDelegate.swift */,
+				B51290BE24EDA3F2001DE47F /* SceneDelegate.swift */,
+				B51290C024EDA3F2001DE47F /* ViewController.swift */,
+				B51290C224EDA3F2001DE47F /* Main.storyboard */,
+				B51290C824EDA3F5001DE47F /* Assets.xcassets */,
+				B51290CA24EDA3F5001DE47F /* LaunchScreen.storyboard */,
+				B51290CD24EDA3F5001DE47F /* Info.plist */,
+				B51290C524EDA3F2001DE47F /* Dante_G_WebVideoPlayer.xcdatamodeld */,
+			);
+			path = Dante_G_WebVideoPlayer;
+			sourceTree = "<group>";
+		};
+		B51290D524EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B51290D624EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests.swift */,
+				B51290D824EDA3F5001DE47F /* Info.plist */,
+			);
+			path = Dante_G_WebVideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		B51290E024EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B51290E124EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests.swift */,
+				B51290E324EDA3F5001DE47F /* Info.plist */,
+			);
+			path = Dante_G_WebVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B51290B824EDA3F2001DE47F /* Dante_G_WebVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51290E624EDA3F5001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_WebVideoPlayer" */;
+			buildPhases = (
+				B51290B524EDA3F2001DE47F /* Sources */,
+				B51290B624EDA3F2001DE47F /* Frameworks */,
+				B51290B724EDA3F2001DE47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dante_G_WebVideoPlayer;
+			productName = Dante_G_WebVideoPlayer;
+			productReference = B51290B924EDA3F2001DE47F /* Dante_G_WebVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B51290D124EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51290E924EDA3F5001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_WebVideoPlayerTests" */;
+			buildPhases = (
+				B51290CE24EDA3F5001DE47F /* Sources */,
+				B51290CF24EDA3F5001DE47F /* Frameworks */,
+				B51290D024EDA3F5001DE47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51290D424EDA3F5001DE47F /* PBXTargetDependency */,
+			);
+			name = Dante_G_WebVideoPlayerTests;
+			productName = Dante_G_WebVideoPlayerTests;
+			productReference = B51290D224EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B51290DC24EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B51290EC24EDA3F5001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_WebVideoPlayerUITests" */;
+			buildPhases = (
+				B51290D924EDA3F5001DE47F /* Sources */,
+				B51290DA24EDA3F5001DE47F /* Frameworks */,
+				B51290DB24EDA3F5001DE47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B51290DF24EDA3F5001DE47F /* PBXTargetDependency */,
+			);
+			name = Dante_G_WebVideoPlayerUITests;
+			productName = Dante_G_WebVideoPlayerUITests;
+			productReference = B51290DD24EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B51290B124EDA3F2001DE47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Dante Givens";
+				TargetAttributes = {
+					B51290B824EDA3F2001DE47F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B51290D124EDA3F5001DE47F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B51290B824EDA3F2001DE47F;
+					};
+					B51290DC24EDA3F5001DE47F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B51290B824EDA3F2001DE47F;
+					};
+				};
+			};
+			buildConfigurationList = B51290B424EDA3F2001DE47F /* Build configuration list for PBXProject "Dante_G_WebVideoPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B51290B024EDA3F2001DE47F;
+			productRefGroup = B51290BA24EDA3F2001DE47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B51290B824EDA3F2001DE47F /* Dante_G_WebVideoPlayer */,
+				B51290D124EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests */,
+				B51290DC24EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B51290B724EDA3F2001DE47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51290CC24EDA3F5001DE47F /* LaunchScreen.storyboard in Resources */,
+				B51290C924EDA3F5001DE47F /* Assets.xcassets in Resources */,
+				B51290C424EDA3F2001DE47F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51290D024EDA3F5001DE47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51290DB24EDA3F5001DE47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B51290B524EDA3F2001DE47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51290C124EDA3F2001DE47F /* ViewController.swift in Sources */,
+				B51290BD24EDA3F2001DE47F /* AppDelegate.swift in Sources */,
+				B51290C724EDA3F2001DE47F /* Dante_G_WebVideoPlayer.xcdatamodeld in Sources */,
+				B51290BF24EDA3F2001DE47F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51290CE24EDA3F5001DE47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51290D724EDA3F5001DE47F /* Dante_G_WebVideoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B51290D924EDA3F5001DE47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51290E224EDA3F5001DE47F /* Dante_G_WebVideoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B51290D424EDA3F5001DE47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51290B824EDA3F2001DE47F /* Dante_G_WebVideoPlayer */;
+			targetProxy = B51290D324EDA3F5001DE47F /* PBXContainerItemProxy */;
+		};
+		B51290DF24EDA3F5001DE47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B51290B824EDA3F2001DE47F /* Dante_G_WebVideoPlayer */;
+			targetProxy = B51290DE24EDA3F5001DE47F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B51290C224EDA3F2001DE47F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51290C324EDA3F2001DE47F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B51290CA24EDA3F5001DE47F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B51290CB24EDA3F5001DE47F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B51290E424EDA3F5001DE47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B51290E524EDA3F5001DE47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B51290E724EDA3F5001DE47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_WebVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-WebVideoPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B51290E824EDA3F5001DE47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_WebVideoPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-WebVideoPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B51290EA24EDA3F5001DE47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_WebVideoPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-WebVideoPlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dante_G_WebVideoPlayer.app/Dante_G_WebVideoPlayer";
+			};
+			name = Debug;
+		};
+		B51290EB24EDA3F5001DE47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_WebVideoPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-WebVideoPlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dante_G_WebVideoPlayer.app/Dante_G_WebVideoPlayer";
+			};
+			name = Release;
+		};
+		B51290ED24EDA3F5001DE47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_WebVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-WebVideoPlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dante_G_WebVideoPlayer;
+			};
+			name = Debug;
+		};
+		B51290EE24EDA3F5001DE47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dante_G_WebVideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Genesysworks.Dante-G-WebVideoPlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dante_G_WebVideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B51290B424EDA3F2001DE47F /* Build configuration list for PBXProject "Dante_G_WebVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51290E424EDA3F5001DE47F /* Debug */,
+				B51290E524EDA3F5001DE47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51290E624EDA3F5001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_WebVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51290E724EDA3F5001DE47F /* Debug */,
+				B51290E824EDA3F5001DE47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51290E924EDA3F5001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_WebVideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51290EA24EDA3F5001DE47F /* Debug */,
+				B51290EB24EDA3F5001DE47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B51290EC24EDA3F5001DE47F /* Build configuration list for PBXNativeTarget "Dante_G_WebVideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51290ED24EDA3F5001DE47F /* Debug */,
+				B51290EE24EDA3F5001DE47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B51290C524EDA3F2001DE47F /* Dante_G_WebVideoPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B51290C624EDA3F2001DE47F /* Dante_G_WebVideoPlayer.xcdatamodel */,
+			);
+			currentVersion = B51290C624EDA3F2001DE47F /* Dante_G_WebVideoPlayer.xcdatamodel */;
+			path = Dante_G_WebVideoPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B51290B124EDA3F2001DE47F /* Project object */;
+}
